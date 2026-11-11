@@ -1,13 +1,13 @@
 {% set name = "freva-client" %}
-{% set version = "2607.1.0" %}
+{% set version = "2611.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/freva_client-{{ version }}.tar.gz
-  sha256: 60bf3c1b4c7d340a664c793258438df9faab3c6db8d646f5478ea4fad7128b16
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/freva_client-{{ version }}.tar.gz
+  sha256: 7ccd18e1e846105f385e724e2db8be3b6042045a98524191e206f27f281d67b0
 
 build:
   entry_points:
